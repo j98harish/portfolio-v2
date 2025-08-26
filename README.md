@@ -12,7 +12,7 @@ A lightweight, responsive single-page portfolio built with plain HTML, CSS and J
 ## Files
 
 - `index.html` — main markup
-- `style.css` — styling, responsive rules and visual polish
+- `styles.css` — styling, responsive rules and visual polish
 - `script.js` — theme logic, canvas background flow, cursor orb logic
 
 ## Features and quick notes
@@ -44,7 +44,7 @@ Or just open `index.html` directly in the browser for quick checks.
 
 ## Customize
 
-- Colors and accent: edit CSS variables in `style.css` (:root).
+- Colors and accent: edit CSS variables in `styles.css` (:root).
 - Particle density and behavior: open `script.js` and adjust `FLOW_COUNT` and the particle initialization block.
 - Cursor responsiveness: adjust the easing multiplier used in the cursor animation (search for the `orbX +=` line).
 
